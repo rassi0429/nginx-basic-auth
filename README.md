@@ -21,7 +21,7 @@ docker run -p 80:80 \
   -e BASIC_AUTH_USER="your_username" \
   -e BASIC_AUTH_PASSWORD="your_password" \
   -e PROXY_PASS_URL="http://your_backend_server" \
-  ghcr.io/YOUR_GITHUB_USERNAME/my-nginx-auth-project:latest
+  ghcr.io/rassi0429/nginx-basic-auth:latest
 ```
 
 ```yml
@@ -29,7 +29,7 @@ services:
   app:
     image: your_app
   nginx-proxy:
-    image: nginx-basic-auth
+    image: ghcr.io/rassi0429/nginx-basic-auth
     ports:
       - 80:80
     environment:
