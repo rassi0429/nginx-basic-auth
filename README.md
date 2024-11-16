@@ -33,8 +33,8 @@ services:
     ports:
       - 80:80
     environment:
-      - BASIC_AUTH_USER=resonite
-      - BASIC_AUTH_PASSWORD=uni-pocket-love
+      - BASIC_AUTH_USER=user
+      - BASIC_AUTH_PASSWORD=password
       - PROXY_PASS_URL=http://app:8080
 ```
 
