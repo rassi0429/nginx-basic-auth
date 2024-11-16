@@ -33,7 +33,7 @@ services:
     environment:
       - BASIC_AUTH_USER=resonite
       - BASIC_AUTH_PASSWORD=uni-pocket-love
-      - PROXY_PASS_URL=http://your_app:8080
+      - PROXY_PASS_URL=http://app:8080
 ```
 
 ### Environment Variables
