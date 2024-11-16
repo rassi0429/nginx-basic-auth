@@ -1,5 +1,7 @@
 # nginx-basic-auth
 
+[English](./README-en.md)
+
 BASIC認証とリバースプロキシ機能を備えたNginxベースのDockerコンテナです。
 
 環境変数でユーザー名、パスワード、プロキシターゲットを設定できます
